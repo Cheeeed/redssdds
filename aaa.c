@@ -6,7 +6,7 @@
 #define INPUTNAMESIZE 7
 #define DATA_SIZE 2048
 
-#define PASS "PCT.pwn" 
+#define PASS "do" 
 
 void urldecode(char *dest, const char *src);
 
@@ -52,7 +52,7 @@ int main()
     else
     {
         printf("<html>\r\n<head><title>401 Unauthorized</title></head>\r\n"
-               "<body bgcolor='#cc9999' text='#000000' value='PCT'>\r\n"
+               "<body bgcolor='#cc9999' text='#000000' value=''>\r\n"
                "<H4>401 Unauthorized</H4>\r\n"
                "Authorization required.\r\n");
     }
